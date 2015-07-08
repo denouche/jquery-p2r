@@ -262,7 +262,7 @@
             axis = this.getAxis(event, isTouchEvent);
 
         // only move element if this not has scroll
-        if (this.$scroll.scrollTop() > 0) {
+        if ($(document).scrollTop() > 0) {
             return true;
         }
 

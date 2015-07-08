@@ -399,7 +399,7 @@
 
         this.$element.trigger(PullToRefresh.namespace('end'));
 
-        /*event.stopPropagation();*/
+        event.stopPropagation();
         /*event.preventDefault();*/
 
     };

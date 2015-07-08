@@ -400,7 +400,7 @@
         this.$element.trigger(PullToRefresh.namespace('end'));
 
         event.stopPropagation();
-        event.preventDefault();
+        /*event.preventDefault();*/
 
     };
 
